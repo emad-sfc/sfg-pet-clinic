@@ -11,6 +11,7 @@
 	<groupId>emad.springframework</groupId>
 	<artifactId>sfg-pet-clininc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>sfg-pet-clininc</name>
 	<description>SFG Pet Clinic Project</description>
 	<properties>
@@ -79,4 +80,8 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>pet-clinic-data</module>
+		<module>pet-clinic-web</module>
+	</modules>
 </project>
